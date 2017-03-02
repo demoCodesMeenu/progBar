@@ -1,0 +1,42 @@
+#progressBar {
+    width: 85%;
+	margin: 0 auto;
+}
+
+#barStatus {
+  position: absolute;
+  width: 8%;
+  height: 100%;
+  background-color: #25F;
+}
+.progress-bars{
+    background-color: rgba(0, 150, 136, 0.33);
+    text-align: center;
+    height: 100%;
+    -webkit-transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -o-transition: width 1s linear;
+    transition: width 1s linear;
+}
+.parent-progress-bar{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+button{
+    width: 69px;
+	height: 26px;
+	margin-left: 16px;
+}
+select{
+    width: 120px;
+	height: 27px;
+}
+.bar-progress-data{
+    display: block;
+    position: absolute;
+    left: 50%;
+}
